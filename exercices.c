@@ -209,12 +209,12 @@ void exercice9()
 
 void exercice10()
 {
-    int n=0, ValeursMoyenne=0, nombreValeurs=0;
+    float n=0, ValeursMoyenne=0, nombreValeurs=0;
 
     do
     {
         printf("Saisissez un entier positif a rajouter à la moyenne \n si vous avez terminé saisir un entier negatif: \n");
-        scanf("%d", &n);
+        scanf("%f", &n);
 
         ValeursMoyenne=ValeursMoyenne+n;
         nombreValeurs++;
@@ -225,6 +225,6 @@ void exercice10()
     ValeursMoyenne=ValeursMoyenne-n;
     nombreValeurs--;
 
-    printf("La moyenne des valeurs rentrées vaut: %d", ValeursMoyenne/nombreValeurs);
+    printf("La moyenne des valeurs rentrées vaut: %f", ValeursMoyenne/nombreValeurs);
 
 }
